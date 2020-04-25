@@ -1,0 +1,45 @@
+<html>
+
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+    <div class="mastercontainer">
+
+        <p>Pomodoro Clock</p>
+        <div style="display: block;">
+            <p style="display: inline-block;width: 50%;float: left;">Session</p>
+            <p style="display: inline-block;width: 50%;float: right;">Break</p>
+        </div>
+        <div style="display: block;">
+            <div style="display: inline-block;width: 50%;float: left;">
+                <div class="arrowdown" onclick="timedown('session')"></div>
+                <div id="sessionview" style="display: inline-block;">25</div>
+                <div class="arrowup" onclick="timeup('session')"></div>
+            </div>
+            <div style="display: inline-block;width: 50%;float: right;">
+                <div class="arrowdown" onclick="timedown('break')"></div>
+                <div id="breakview" style="display: inline-block;">5</div>
+                <div class="arrowup" onclick="timeup('break')"></div>
+            </div>
+        </div>
+
+        <div style="display: block;margin-top: 150px;">
+            <div class="arrowright"></div>
+            <div class="refreshbutton">Refresh</div>
+        </div>
+        <div style="display: block;margin-top: 20px;">
+            <div id="modeview">Session</div>
+            <div id="timeview">25:00</div>
+        </div>
+
+        <div style="display: block;margin-top: 20px;">
+            <div class="pausebutton">Pause</div>
+            <div class="stopbutton"></div>
+        </div>
+        
+
+    </div>
+    
+
+</html>

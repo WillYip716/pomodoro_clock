@@ -1,0 +1,97 @@
+.arrowup{
+    width:0;
+    height:0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.arrowdown{
+    width:0;
+    height:0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid black;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.arrowup:hover {
+    border-bottom: 15px solid red !important;
+}
+
+.arrowdown:hover {
+    border-top: 15px solid red !important;
+}
+
+.mastercontainer{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+
+.arrowright{
+    width:0;
+    height:0;
+    border-left: 25px solid black;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    display: inline-block;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+
+
+.refreshbutton{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.pausebutton{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.stopbutton{
+    width:0;
+    height:0;
+    border-left: 25px solid black;
+    border-top: 25px solid black;
+    border-bottom: 25px solid black;
+    border-right: 25px solid black;
+    display: inline-block;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.arrowright:hover {
+    border-left: 25px solid red !important;
+}
+
+.stopbutton:hover {
+    border-left: 25px solid red !important;
+    border-top: 25px solid red !important;
+    border-bottom: 25px solid red !important;
+    border-right: 25px solid red !important;
+}
+
+.refreshbutton:hover {
+    color: red;
+}
+
+.pausebutton:hover {
+    color: red;
+}
